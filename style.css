@@ -1,0 +1,128 @@
+/* Existe una manera de ver como las modificaciones de el "css" afectan a cada uno de los elementos en el documento "html" 
+la cual nos permite entender el funcionamiento de cada atributo y/o propiedad. 
+Como notaras en este bloque de codigo quitamos los espacios predefinidos que tiene cada elemento desde el borde hacia adentrro
+con el "padding" y desde el borde hacia afuera con "margin".*/
+*{
+    /* border: 1px solid; */
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Single day";
+    background-color: #e6e6ea;
+}
+
+/* La propiedad overflow hace que desaparescan las barras que muestran el contenido extra. */
+.container{
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fe4a49;
+}
+
+/* Con la propiedad float podemos ubicar un elemento al lado izquierdo o derecho de su contenedor */
+.container h1{
+    float: left;
+    margin-left:10%;
+    color: white;
+}
+
+/* Podemos eliminar el estilo que tenga predefinida nuestra lista desordenada con la propiedad "list-style-type" */
+.container ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.container li{
+    margin-top: 10px;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.current a::after{
+    content: "_";
+    background-color: white;
+    font-size: 4px;
+    display: block;
+}
+
+/* Ten encuenta que este elemento "wrapper" contiene dos clases "equation" y "answer-option". Display grid, nos permite
+crear columnas independientes.*/
+.wrapper{
+    display: grid;
+    grid-template-columns: 82% 18%;
+}
+
+.equation{
+    font-size: 65px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Con display inline notaras que el contenido se alineara. Es decir en el caso de caracteres, cada letra estara una
+detras de otra.*/
+.equation h1{
+    display: inline;
+    padding: 10px;
+}
+
+.answer-options{
+    font-size: 60px;
+    margin-right: 10px;
+}
+
+.answer-options h1{
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* La propiedad transition como su nombre lo indica. Nos permite crear un efecto dinamico en pantalla. */
+#option1{
+    background-color: #fe4a49;
+    transition: 1s;
+}
+
+/* El hover hace que el efecto anterior se cumpla cada vez que el cursor pasa por el caracter.*/
+#option1:hover{
+    color: #fe4a49;
+    background-color: whitesmoke;
+}
+
+/* La propiedad transition como su nombre lo indica. Nos permite crear un efecto dinamico en pantalla. */
+#option2{
+    background-color: #2ab7ca;
+    transition: 1s;
+}
+
+/* El hover hace que el efecto anterior se cumpla cada vez que el cursor pasa por el caracter.*/
+#option2:hover{
+    color: #2ab7ca;
+    background-color: whitesmoke;
+}
+
+/* La propiedad transition como su nombre lo indica. Nos permite crear un efecto dinamico en pantalla. */
+#option3{
+    background-color: #fed766;
+    transition: 1s;
+}
+
+/* El hover hace que el efecto anterior se cumpla cada vez que el cursor pasa por el caracter.*/
+#option3:hover{
+    color: #fed766;
+    background-color: whitesmoke;
+}

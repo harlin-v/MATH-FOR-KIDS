@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <title>MATH FOR KIDS</title>
+</head>
+<body>
+
+    <!-- De esta manera podemos anexar un archivo de audio a nuestro documento. -->
+    <audio id="myaudio">
+        <source src="audio/wrong-buzzer-6268.mp3">
+    </audio>
+
+    <!-- En esta ocasion  haremos uso de la etiqueta "header" la cual nos permite crear un encabezado donde podemos anexar informacion.-->
+    <header>
+        <!-- Dentro de este encabezado tendremos un contenedor que a su vez tiene una lista desordenada de elementos. -->
+        <div class="container">
+            <h1>Hola Martin!</h1>
+            <ul>
+                <!-- Como puedes notar en el siguiente codigo, estoy haciendo uso de la etiquta "a" la cual me permite 
+                crear un hipervinculo que me redirige a otro lugar dentro de un mismo documento, o en este caso a otros documentos.-->
+                <li><a href="index.html">Suma</a></li>
+                <li class="current"><a href="Resta.html">Resta</a></li>
+                <li><a href="Multiplicacion.html">Multiplicacion</a></li>
+                <li><a href="Division.html">Division</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- En este bloque de codigo hemos creado un "div" con una clase "wrapper" y dentro de esta otra clase llamada "equation"
+    que tiene varios elementos con un "id" los cuales utilizaremos en el archivo "javascript".
+    Recuerda que tambien podemos darle estilo a nuestros elementos desde el mismo documento "html" con el atributo "style" y los parametros. -->
+    <div class="wrapper">
+        <div class="equation">
+
+            <h1 id="num1" style="color: #fe4a49;">1</h1>
+            <h1 style="color: #2ab7ca;">-</h1>
+            <h1 id="num2" style="color: #fed766;">1</h1>
+            <h1 style="color: #fe4a49;">=</h1>
+            <h1 style="color: gray;">?</h1>
+        </div>
+
+        <div class="answer-options">
+            <h1 id="option1">1</h1>
+            <h1 id="option2">2</h1>
+            <h1 id="option3">3</h1>
+        </div>
+
+    </div>
+    
+    <script src="Resta.js"></script>
+</body>
+</html>
