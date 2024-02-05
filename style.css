@@ -126,3 +126,25 @@ detras de otra.*/
     color: #fed766;
     background-color: whitesmoke;
 }
+
+@media(max-width: 400px ){
+    .container{
+        padding: auto;
+    }
+
+    .equation{
+        font-size: 20px;
+        background-color: white;
+        border-radius: 6px;
+        text-align: center;
+        padding-top: 15%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .answer-options{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+}
