@@ -147,4 +147,14 @@ detras de otra.*/
         font-size: 20px;
         margin-right: 5px;
     }
+
+    .container li{
+        margin-top: 10px;
+    /* float: left; */
+       padding: 0 20px 0 20px;
+    }
+
+    .wrapper{
+        display: inline;
+    }
 }
