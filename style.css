@@ -149,8 +149,8 @@ detras de otra.*/
     }
 
     .container li{
-        margin-top: 10px;
-    /* float: left; */
+       margin-top: 10px;
+       float: none;
        padding: 0 20px 0 20px;
     }
 
