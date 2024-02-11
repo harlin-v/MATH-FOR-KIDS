@@ -3,6 +3,7 @@ const option2 = document.getElementById("option2");
 const option3 = document.getElementById("option3");
 
 const audio1 = document.getElementById("myaudio1");
+const audio2 = document.getElementById("myaudio2");
 
 var answer = 0;
 
@@ -41,6 +42,7 @@ de lo contrario, se reproducira un sonido.*/
 option1.addEventListener("click", function(){
     if(option1.innerHTML == answer){
         generate_equation();
+        audio2.play();
     }
     else{
         audio1.play();
@@ -51,6 +53,7 @@ option1.addEventListener("click", function(){
 option2.addEventListener("click", function(){
     if(option2.innerHTML == answer){
         generate_equation();
+        audio2.play();
     }
     else{
         audio1.play();
@@ -63,6 +66,7 @@ option3.addEventListener("click", function(){
     }
     else{
         audio1.play();
+        audio2.play();
     }
 })
 
