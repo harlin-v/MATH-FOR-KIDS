@@ -63,10 +63,11 @@ option2.addEventListener("click", function(){
 option3.addEventListener("click", function(){
     if(option3.innerHTML == answer){
         generate_equation();
+        audio2.play();
     }
     else{
         audio1.play();
-        audio2.play();
+       
     }
 })
 
