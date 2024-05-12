@@ -1,0 +1,47 @@
+[33mcommit c2627336f41ec412a0d91d4d4e1660f22c922ca8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Sun Feb 11 15:47:43 2024 -0500
+
+    Modificacion del index.js
+
+[33mcommit 39735a386a32d6c122523b80353796ee91ecc697[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Sun Feb 11 15:42:17 2024 -0500
+
+    Se añadio un archivo de audio a el archivo index.js para cada respuesta correcta.
+
+[33mcommit 4512ae3c08a580ce2d72e37efd2bca23f204ea68[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Sun Feb 11 15:15:44 2024 -0500
+
+    Se añadio un archivo de audio a el documento html de resta.html
+
+[33mcommit 2ae0bd4ea049c4529d67a6db47fe84b796718abd[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Sun Feb 11 15:09:31 2024 -0500
+
+    se añadio un audio para cada respuesta correcta en el archivo resta.js
+
+[33mcommit f735ee536ad217f2981aa34ce46b8bf217d5cf4e[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Fri Feb 9 12:23:14 2024 -0500
+
+    Se anexo un audio para las respuestas correctas y se modifico el css para la resposividad
+
+[33mcommit 8845c6e4e1aa204076ceb262f245e1ec0382db5b[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Mon Feb 5 13:02:27 2024 -0500
+
+    Modificacion de el display en pantallas pequeñas
+
+[33mcommit 687c8b38a416fb9ccee26a00628472385e5e4ae0[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Mon Feb 5 12:02:43 2024 -0500
+
+    Cambio en el css (max-width)
+
+[33mcommit 4ab5e844c8b3ffdb675b54e0605dfaa5e38e402a[m
+Author: harli-v <harlin.valencia.0ds@gmail.com>
+Date:   Sun Feb 4 20:55:51 2024 -0500
+
+    cambio de color en el background
