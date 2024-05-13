@@ -13,9 +13,6 @@ body{
     background-color: #e6e6ea;
 }
 
-.centrar{
-    display: inline;
-}
 
 /* La propiedad overflow hace que desaparescan las barras que muestran el contenido extra. */
 .container{
@@ -159,6 +156,9 @@ detras de otra.*/
     }
 
     .wrapper{
+        display: inline;
+    }
+    .centrar{
         display: inline;
     }
 }
