@@ -156,7 +156,9 @@ detras de otra.*/
     }
 
     .wrapper{
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        
     }
     .centrar{
         display: inline;
